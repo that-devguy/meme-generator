@@ -1,4 +1,6 @@
-body {}
+body {
+  font-family: 'Inter', sans-serif;
+}
 
 .header--container {
   display: flex;
@@ -10,8 +12,25 @@ body {}
 .header--logo {
   width: 31px;
   height: 26px;
+  margin-left: 20px;
+  margin-right: 7px;
+}
+
+.header--title {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
 }
 
 .header--desc {
   margin-left: auto;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
 }
